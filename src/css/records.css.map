@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,IAAI;EACtB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,MAAM;CAAG",
+    "sources": [
+        "../sass/records.sass"
+    ],
+    "names": [],
+    "file": "records.css"
+}

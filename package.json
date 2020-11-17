@@ -1,0 +1,25 @@
+{
+  "name": "dice-hunter",
+  "version": "1.0.0",
+  "description": "js game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./index.html -p 4200 --open",
+    "build": "parcel build ./index.html --no-source-maps"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "test",
+    "task"
+  ],
+  "author": "Lukin Aleksandr <web.lukin.aleksandr@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.29.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

@@ -1,0 +1,49 @@
+.square {
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  position: absolute;
+}
+
+.square:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.one {
+  background-color: #f0cbcb;
+  width: 60px;
+  height: 60px;
+}
+
+.two {
+  background-color: #f5a612;
+  width: 50px;
+  height: 50px;
+}
+
+.three {
+  background-color: #592fca;
+  width: 40px;
+  height: 40px;
+}
+
+.four {
+  background-color: #5e2e35;
+  width: 30px;
+  height: 30px;
+}
+
+.five {
+  background-color: #b60303;
+  width: 25px;
+  height: 25px;
+}
+
+.six {
+  background-color: #090000;
+  width: 20px;
+  height: 20px;
+}
+/*# sourceMappingURL=figue.css.map */

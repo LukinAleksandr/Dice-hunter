@@ -1,0 +1,83 @@
+.mymodal.open #mymodal-window
+    transform: scale(1)
+
+.mymodal.open #mymodal-overlay
+    background-color: rgba(0, 0, 0, 0.5)
+
+.mymodal.close #mymodal-window
+    transform: scale(0)
+
+.mymodal.close #mymodal-overlay
+    background-color: rgba(0, 0, 0, 0)
+
+#mymodal-overlay
+    font-family: 'Roboto', sans-serif
+    font-size: 1.2em
+    position: fixed
+    display: flex
+    justify-content: center
+    align-items: center
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    z-index: 100
+    background-color: rgba(0, 0, 0, 0)
+    transition: background-color 0.2s ease-in
+
+#mymodal-window
+    position: relative
+    width: 90%
+    max-width: 400px
+    background-color: #fff
+    display: flex
+    border-radius: 8px
+    padding: 5px
+    box-sizing: border-box
+    flex-direction: column
+    transform: scale(0)
+    z-index: 1000
+    transition: transform 0.2s ease-in
+
+#mymodal-header
+    display: flex
+    justify-content: flex-end
+    padding: 5px 0
+
+#mymodal-close
+    display: flex
+    margin: 0
+    padding: 0
+    justify-content: center
+    align-items: center
+    border-radius: 50%
+    cursor: pointer
+    line-height: 24px
+    transition: 0.2s
+    height: 24px
+    width: 24px
+    background-color: #30156e
+    color: #fff
+
+#mymodal-close:hover
+    background-color: #00a5f1
+
+#mymodal-title
+    user-select: none
+
+#mymodal-body 
+    padding: 5px 0
+    margin: 10px
+    text-align: center
+    letter-spacing: 0.025em
+    line-height: 2rem
+    font-family: Raleway, Open Sans, Arial
+    font-weight: 300
+    font-size: 0.85em
+
+#mymodal-footer
+    display: flex
+    justify-content: space-around
+    margin-bottom: 10px
+    button
+        width: 49%
